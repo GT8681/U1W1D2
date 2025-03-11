@@ -3,25 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descrition" content="primi passi operativi per creare un modello di pagina">
+    <meta name="descrition" content="primi passi operativi per creare un modello di pagina html per un post. Scopri come iniziare in modo facile">
     <title>Sviluppo di una pagina web-Blog Epicode</title>
 </head>
-<style>
-    a{
-        display: inline-block;
-        height: 100px;
-    }
-
-
-</style>
 <body>
    
-    <header></header>
-    <img class="logo" src="assets/assets/img/logo.svg" alt="epicode_thumb"/>
+    <header>
+    <div>
+    <img  src="assets/assets/img/logo.svg" alt="epicode_thumb" width="150" height="150"/>
     <span>Epicode - Il blog dei developers</span>
-      </header>
-
-      <main>
+    </div>
   <Ul>
    <li>
         Home
@@ -31,9 +22,12 @@
     </li>
 
     <li>
-    lavora con noi
+        Lavora con noi
     </li>
 </Ul>
+ </header>
+
+<main>
        <h1>come creare un template per i post di mario Rossi - publicato il 25-10-2020</h1>
 
        <p>La prima cosa da fare e suddividere in blocchi logici la pagina, identificandole parti comuni da aplicare a tutte le pagine</p>
@@ -41,9 +35,9 @@
            <Div>
                <P>Le varie aree saranno quindi suddivise in:</P>
                 <ul>
-                <li>contenuti di intestazione del tag %ltheader%lt</li>
-                <li>contenuti centrali variabili del tag </li>
-                <li>contenuti di fine pagina comuni, da inserire nel tag </li>
+                <li>contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+                <li>contenuti centrali variabili del tag  <code>&lt;main&gt;</code></li>
+                <li>contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
                 </ul>    
             </Div>
             <p>Formattazione del codice</p>
@@ -111,9 +105,14 @@
         dedicato allo scopo.Una volta attimizzato il tutto, avremo raggiunto il nostro obbiettivoad 
     essere stati dei veri developers come loro:</p>
 
-    <iframe src="https://youtu.be/IjzdMvuzxDY?si=D0S-4m1DzZ982_fI" width="350" height="350" title="video epicode">   
+    <iframe src="https://youtu.be/IjzdMvuzxDY?si=awSUOIeeP0JQ6qY_" 
+             width="350" height="350" 
+             title="video epicode"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen  >   
 
     </iframe>
+    
           <h1>Novita</h1>
           <p>Vuoi rimanere aggiornato su altre novita del blog? Iscriviti alla nostra newsletter:</p>
         <form>
@@ -121,7 +120,35 @@
             <input type="email" placeholder="inserisci email">
             <button type="button"> Iscriviti</button>
         </form>
-          
+
+        <div>
+            <h2>Articoli correlati</h2>
+
+            <a href="validare html">Validare il codice HTML</a>
+           <p>Categoria:develo   </p> 
+            <p>Data:18-9-2020 </p>
+            
+        </div>
+        <div>
+             <a href="correggere la sintassi">Correggere la sintassi </a>
+             <p> Categoria:develop</p> 
+               <p>Data:16-9.2020</p>
+        </div>
+            <div>
+                <a href="meno kb nella pagina">Meno Kb nella pagina</a>
+               <p> Categoria:ottimizzare</p>
+                <p>Data:30.9.2020</p> 
+
+            </div>
+
+            <footer>
+                  <p>Blog Epicode 2023</p>
+
+                 Testata online di Mario Rossi, registrata con protocollo n.213/2018-via luigi einaudi 2-milano. P.IVA 00112233.
+                <a href="scuola.epicode@gmail.com" title="scrivimi per info">info@epicode.school</a>
+
+
+            </footer>
 
 </main>
 </body>
